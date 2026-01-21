@@ -1,0 +1,14 @@
+num factorial(num n) {
+      if (n == 1) { return n }
+      else { return n * factorial( n - 1 ) }
+}
+
+num sum(num n1, num n2) return n1 + n2
+
+print('Hello world!')
+
+num num1 = inputNum('Enter first number: ')
+num num2 = inputNum('Enter first number: ')
+
+print(factorial(sum(num1, num2)))
+inputExpr()
